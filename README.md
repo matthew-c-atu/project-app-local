@@ -1,6 +1,11 @@
 # project-app-local
 Repo for running the final project music player app locally. Requires Docker compose.
 
+Intended to set up environment for running the following applications together:
+- https://github.com/matthew-c-atu/project-react-frontend
+- https://github.com/matthew-c-atu/project-audio-streamer
+- https://github.com/matthew-c-atu/project-database
+
 ### USAGE
 - Install docker (https://docs.docker.com/get-docker/)
 - Ensure docker compose is installed (https://docs.docker.com/compose/install/)
