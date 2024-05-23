@@ -1,0 +1,16 @@
+services:
+  react-frontend:
+    image: "matthewatu/project-react-frontend:latest"
+    ports:
+      - "127.0.0.1:9000:9000"
+
+  audio-streamer:
+    image: "matthewatu/project-audio-streamer:latest"
+    ports:
+      - "127.0.0.1:9001:9001"
+
+  database:
+    image: "matthewatu/project-database:latest"
+    ports:
+      - "127.0.0.1:9002:9002"
+
